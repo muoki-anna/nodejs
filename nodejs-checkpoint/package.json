@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-checkpoint",
+  "version": "1.0.0",
+  "main": "email-sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A comprehensive Node.js checkpoint project covering fundamental concepts including console output, server creation, file operations, npm packages, and email sending.",
+  "dependencies": {
+    "generate-password": "^1.7.1",
+    "nodemailer": "^7.0.10"
+  }
+}

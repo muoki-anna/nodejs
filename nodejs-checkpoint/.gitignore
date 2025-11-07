@@ -1,0 +1,44 @@
+# Node.js Checkpoint - .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (IMPORTANT - contains sensitive data)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Personal email configuration
+email-config.js
+credentials.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+welcome.txt
+
+# Any file with 'private' or 'secret' in the name
+*private*
+*secret*
+*credentials*
